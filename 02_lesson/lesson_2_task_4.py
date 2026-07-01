@@ -8,6 +8,6 @@ def fizz_buzz(n):
             print('Fizz')
         else:
             print(f_b)
-    
 
-fizz_buzz(80)
+
+fizz_buzz(9)
