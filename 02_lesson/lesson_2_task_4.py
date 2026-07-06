@@ -1,5 +1,5 @@
 def fizz_buzz(n):
-    for f_b in range(1, n):
+    for f_b in range(1, n + 1):
         if f_b % 3 == 0 and f_b % 5 == 0:
             print('FizzBuzz')
         elif f_b % 5 == 0:

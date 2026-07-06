@@ -2,10 +2,9 @@ import math
 
 
 def square(side):
-    if side % 1 != 0:
-        print(math.ceil(side) * math.ceil(side))
-    else:
-        print(side * side)
+    return math.ceil(side * side)
 
 
-square(4.2)
+side = 11.6
+result = square(side)
+print(result)
